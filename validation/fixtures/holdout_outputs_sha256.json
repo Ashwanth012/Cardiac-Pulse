@@ -1,0 +1,17 @@
+{
+ "outputs/holdout/figures/fig01_holdout_mae_by_cutoff.png": "d9da9a13f9af64962cbb743af53fa6004ea89e326d1c3d9ee06810fef4787259",
+ "outputs/holdout/figures/fig02_holdout_example_forecasts.png": "ed17274d5886a74fd0e9df6422eaffb5e6390ff777edc3b25b18a14ca85e53a9",
+ "outputs/holdout/figures/fig03_holdout_by_horizon.png": "8e54cbf56932cc5dd96fe464cfbdd7d2dba1f585e8d5f7f3e9d6dc708e44521c",
+ "outputs/holdout/tables/by_cutoff_month_daily.csv": "315d005bfed1df86d31e8a15507b931f7917a4d91b76cbe5b6884f0dfece9abb",
+ "outputs/holdout/tables/by_horizon_primary.csv": "e503efee8d5334e9a14541b7869449e997351353921e70cb2e1c46a512d84330",
+ "outputs/holdout/tables/context_earlier_stages.csv": "2468829db03f3b1057118fdf7124c06274e57d56c75df297912b67590374abfc",
+ "outputs/holdout/tables/forecasts_daily_sensitivity.csv": "aa2ac3bfe0a483bf42f56d1ed719f416b9a4844d22f8b9b9c5de49d7de6857b0",
+ "outputs/holdout/tables/forecasts_primary_grid.csv": "c590b025d852452639df7e898c8b8dd57122c584220da60de97dcffb00f1eb86",
+ "outputs/holdout/tables/harness_score_all_4cutoff_combinations.csv": "a0528021b228b6dcd0dd77be66c2606a4013927a0cb63c716180c6aa61f8aea6",
+ "outputs/holdout/tables/leakage_and_runtime_audit.csv": "5945982366d097edebb67262c16314f667e1f304c80e9e22b3ea27137c6ed4da",
+ "outputs/holdout/tables/metrics_daily_excluding_2019-03-31.csv": "bf98ab0b706e025ba25fcceee48a5b8d54a52ae7ff86e8d046e5c50559c1663b",
+ "outputs/holdout/tables/metrics_daily_sensitivity.csv": "16a38334ed40e629e0acf05a1c0c69f0c28a1cb070be69139c98b4a5a0f8066d",
+ "outputs/holdout/tables/metrics_primary_grid.csv": "06aa66368957f83e3953795fae0506a41949813141e472d54f359bc238d8ea4b",
+ "outputs/holdout/tables/per_cutoff_primary.csv": "7a90f832af2dc5495503929083dcb7f579964573af00c6763ecde8e52b132f28",
+ "outputs/holdout/tables/summary.json": "5b40023537648b0d2d32bd5544997d1d1961697976f5abf87d1ccc7054c592f3"
+}

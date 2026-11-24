@@ -1,0 +1,5 @@
+stage,cutoffs,MAE,ratio_vs_B0,coverage80
+Step 4 tuning (2017-07..2018-06; configs chosen here),88,5.758148921660652,0.787701473627129,
+Step 4 Jan-Mar 2018 analogue (subset of tuning),20,6.68368576691968,0.7650989430652128,
+Step 4 validation (2018-07..2018-12; model chosen here),42,4.496547913550022,0.6987236187017475,0.923469387755102
+"Step 5.3 HOLDOUT Jan-Mar 2019 (primary grid, frozen forecast.py)",19,6.303347571114545,0.8995120460925262,0.8421052631578947

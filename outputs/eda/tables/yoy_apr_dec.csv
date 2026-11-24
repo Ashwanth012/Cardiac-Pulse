@@ -1,0 +1,6 @@
+series,apr_dec_2017,apr_dec_2018,change_pct
+admissions,20.26,20.93,3.32
+admissions_dedup_exact,20.2,19.12,-5.35
+admissions_dedup_mrd_doa,19.46,18.63,-4.28
+admissions_emergency,13.33,15.42,15.65
+admissions_opd,6.92,5.51,-20.43

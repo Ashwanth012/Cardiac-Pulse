@@ -1,0 +1,43 @@
+@import "./theme/tokens.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { font-family: theme("fontFamily.sans"); font-feature-settings: "cv11", "ss01"; }
+  body {
+    @apply bg-bg text-text antialiased;
+    min-height: 100vh;
+    background-image:
+      radial-gradient(1100px 520px at 12% -10%, rgb(var(--glow-1) / 0.10), transparent 60%),
+      radial-gradient(900px 480px at 100% 0%, rgb(var(--glow-2) / 0.10), transparent 55%),
+      linear-gradient(180deg, rgb(var(--c-bg-2)) 0%, rgb(var(--c-bg)) 420px);
+    background-attachment: fixed;
+  }
+  :focus-visible { outline: 2px solid rgb(var(--c-observed)); outline-offset: 2px; border-radius: 6px; }
+  ::selection { background: rgb(var(--c-forecast) / 0.35); }
+}
+
+@layer components {
+  .panel {
+    background: rgb(var(--c-surface) / var(--panel-alpha));
+    border: 1px solid rgb(var(--c-border) / 0.16);
+    box-shadow: var(--shadow);
+    backdrop-filter: blur(14px) saturate(140%);
+    -webkit-backdrop-filter: blur(14px) saturate(140%);
+    @apply rounded-xl2;
+  }
+  .tabular { font-variant-numeric: tabular-nums; }
+  .skeleton {
+    background: linear-gradient(90deg, rgb(var(--c-surface-2)) 0px, rgb(var(--c-border) / 0.18) 120px, rgb(var(--c-surface-2)) 240px);
+    background-size: 800px 100%;
+    @apply animate-shimmer rounded-lg;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 1ms !important; animation-delay: 0ms !important;
+    animation-iteration-count: 1 !important; transition-duration: 1ms !important;
+  }
+}

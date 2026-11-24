@@ -1,0 +1,10 @@
+family,model
+B0,B0_seasonal_naive
+B1,B1_mean_w56
+M1,M1_wk_L56_W364
+M2,M2_wkcal_L56_W364
+M3,M3_yearago_L56
+M5,M5_hw_N182
+M4,M4_glm_Nall_K2_T0_L0
+M6,M6_ens_M2_M4
+E,E_pm25_lag14

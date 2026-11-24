@@ -1,0 +1,250 @@
+source,date,row_ref,column,raw_value,new_value,action,rule,reason
+admissions,2017-04-19,SNO 208,D.O.D,3/19/2017,,flagged,A1,discharge date inconsistent (analysis-only field)
+admissions,2017-06-22,SNO 1512,D.O.D,4/30/2017,,flagged,A1,discharge date inconsistent (analysis-only field)
+admissions,2017-11-27,SNO 4693,D.O.D,2-1217,,flagged,A1,discharge date malformed (analysis-only field)
+admissions,2017-11-29,SNO 4749,D.O.D,11/6/2017,,flagged,A1,discharge date inconsistent (analysis-only field)
+admissions,2017-04-02,SNO 37,D.O.D,4/5/2017,2017-04-05,flagged,A2,discharge date does not match DURATION OF STAY; resolved by order only
+admissions,2017-04-02,SNO 41,D.O.D,4/11/2017,2017-04-11,flagged,A2,discharge date does not match DURATION OF STAY; resolved by order only
+admissions,2017-04-05,SNO 100,D.O.D,11/14/2017,2017-11-14,flagged,A2,discharge date does not match DURATION OF STAY; resolved by order only
+admissions,2017-04-14,SNO 181,D.O.D,5/5/2017,2017-05-05,flagged,A2,discharge date does not match DURATION OF STAY; resolved by order only
+admissions,2017-04-17,SNO 196,D.O.D,5/1/2017,2017-05-01,flagged,A2,discharge date does not match DURATION OF STAY; resolved by order only
+admissions,2017-04-22,SNO 278,D.O.D,6/27/2017,2017-06-27,flagged,A2,discharge date does not match DURATION OF STAY; resolved by order only
+admissions,2017-04-22,SNO 280,D.O.D,4/25/2017,2017-04-25,flagged,A2,discharge date does not match DURATION OF STAY; resolved by order only
+admissions,2017-04-27,SNO 421,D.O.D,4/9/2017,2017-09-04,flagged,A2,discharge date does not match DURATION OF STAY; resolved by order only
+admissions,2017-04-30,SNO 489,D.O.D,5/6/2017,2017-05-06,flagged,A2,discharge date does not match DURATION OF STAY; resolved by order only
+admissions,2017-07-07,SNO 1823,D.O.D,08/04/2017,2017-08-04,flagged,A2,discharge date does not match DURATION OF STAY; resolved by order only
+admissions,2017-08-19,SNO 2543,D.O.D,8/20/2017,2017-08-20,flagged,A2,discharge date does not match DURATION OF STAY; resolved by order only
+admissions,2017-09-05,SNO 2873,D.O.D,8/10/2017,2017-10-08,flagged,A2,discharge date does not match DURATION OF STAY; resolved by order only
+admissions,2017-11-02,SNO 4056,D.O.D,11/9/2017,2017-11-09,flagged,A2,discharge date does not match DURATION OF STAY; resolved by order only
+admissions,2017-11-11,SNO 4313,D.O.D,11/18/2017,2017-11-18,flagged,A2,discharge date does not match DURATION OF STAY; resolved by order only
+admissions,2018-02-16,SNO 6687,D.O.D,04/03/2018,2018-03-04,flagged,A2,discharge date does not match DURATION OF STAY; resolved by order only
+admissions,2018-02-18,SNO 6723,D.O.D,3/11/2018,2018-03-11,flagged,A2,discharge date does not match DURATION OF STAY; resolved by order only
+admissions,2018-02-26,SNO 6930,D.O.D,10/03/2018,2018-03-10,flagged,A2,discharge date does not match DURATION OF STAY; resolved by order only
+admissions,2018-02-27,SNO 6959,D.O.D,02/03/2018,2018-03-02,flagged,A2,discharge date does not match DURATION OF STAY; resolved by order only
+admissions,2018-02-28,SNO 6991,D.O.D,02/03/2018,2018-03-02,flagged,A2,discharge date does not match DURATION OF STAY; resolved by order only
+admissions,2018-11-01,SNO 11900,D.O.D,04/12/2018,2018-12-04,flagged,A2,discharge date does not match DURATION OF STAY; resolved by order only
+admissions,2018-11-13,SNO 12137,D.O.D,12/3/2018,2018-12-03,flagged,A2,discharge date does not match DURATION OF STAY; resolved by order only
+admissions,2018-11-19,SNO 12252,D.O.D,03/12/2018,2018-12-03,flagged,A2,discharge date does not match DURATION OF STAY; resolved by order only
+admissions,2018-11-24,SNO 12383,D.O.D,06/12/2018,2018-12-06,flagged,A2,discharge date does not match DURATION OF STAY; resolved by order only
+admissions,2018-11-27,SNO 12472,D.O.D,02/12/2018,2018-12-02,flagged,A2,discharge date does not match DURATION OF STAY; resolved by order only
+admissions,2018-11-28,SNO 12492,D.O.D,10/12/2018,2018-12-10,flagged,A2,discharge date does not match DURATION OF STAY; resolved by order only
+admissions,2018-11-28,SNO 12493,D.O.D,08/12/2018,2018-12-08,flagged,A2,discharge date does not match DURATION OF STAY; resolved by order only
+admissions,2018-11-30,SNO 12560,D.O.D,03/12/2018,2018-12-03,flagged,A2,discharge date does not match DURATION OF STAY; resolved by order only
+admissions,2017-04-20,SNO 226,AGE,10,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2017-04-20,SNO 228,AGE,12,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2017-06-11,SNO 1320,AGE,15,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2017-06-16,SNO 1414,AGE,7,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2017-07-03,SNO 1723,AGE,15,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2017-07-05,SNO 1773,AGE,16,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2017-07-17,SNO 2014,AGE,4,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2017-07-29,SNO 2245,AGE,14,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2017-07-30,SNO 2258,AGE,16,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2017-07-30,SNO 2259,AGE,16,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2017-08-01,SNO 2303,AGE,9,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2017-08-07,SNO 2420,AGE,7,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2017-09-04,SNO 2855,AGE,7,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2017-09-21,SNO 3215,AGE,13,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2017-09-25,SNO 3279,AGE,13,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2017-10-05,SNO 3510,AGE,16,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2017-10-06,SNO 3539,AGE,14,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2017-10-12,SNO 3671,AGE,17,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2017-10-16,SNO 3740,AGE,17,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2017-11-14,SNO 4391,AGE,15,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2017-11-15,SNO 4426,AGE,4,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2017-12-05,SNO 4954,AGE,17,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2017-12-14,SNO 5165,AGE,6,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2018-01-07,SNO 5837,AGE,15,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2018-01-22,SNO 6239,AGE,4,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2018-02-11,SNO 6548,AGE,16,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2018-02-18,SNO 6719,AGE,17,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2018-05-08,SNO 8248,AGE,16,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2018-05-09,SNO 8278,AGE,12,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2018-05-22,SNO 8505,AGE,10,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2018-05-27,SNO 8608,AGE,11,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2018-05-30,SNO 8670,AGE,4,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2018-06-01,SNO 8714,AGE,15,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2018-06-01,SNO 8715,AGE,15,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2018-06-04,SNO 8783,AGE,13,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2018-06-07,SNO 8847,AGE,10,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2018-06-13,SNO 8973,AGE,12,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2018-06-14,SNO 8995,AGE,13,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2018-07-09,SNO 9469,AGE,5,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2018-07-20,SNO 9675,AGE,110,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2018-07-21,SNO 9701,AGE,13,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2018-07-26,SNO 9791,AGE,15,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2018-08-21,SNO 10282,AGE,6,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2018-08-29,SNO 10442,AGE,10,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2018-09-22,SNO 10968,AGE,4,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2018-10-12,SNO 11413,AGE,15,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2018-10-12,SNO 11414,AGE,4,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2018-10-12,SNO 11415,AGE,4,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2018-10-21,SNO 11640,AGE,17,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2018-12-10,SNO 12843,AGE,7,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2018-12-22,SNO 13137,AGE,16,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2018-12-29,SNO 13289,AGE,16,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2019-01-01,SNO 13380,AGE,11,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2019-01-02,SNO 13406,AGE,4,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2019-01-02,SNO 13408,AGE,16,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2019-02-17,SNO 14677,AGE,110,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2019-03-25,SNO 15627,AGE,11,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2019-03-25,SNO 15628,AGE,11,,flagged,A3,age outside 18-100 in an adult cardiology unit
+admissions,2017-04-24,SNO 315,duration of intensive unit stay,5,,flagged,A4,ICU days exceed total stay (2)
+admissions,2017-05-06,SNO 603,duration of intensive unit stay,10,,flagged,A4,ICU days exceed total stay (4)
+admissions,2017-05-31,SNO 1082,duration of intensive unit stay,6,,flagged,A4,ICU days exceed total stay (5)
+admissions,2017-06-02,SNO 1125,duration of intensive unit stay,6,,flagged,A4,ICU days exceed total stay (5)
+admissions,2017-06-08,SNO 1270,duration of intensive unit stay,3,,flagged,A4,ICU days exceed total stay (1)
+admissions,2017-06-23,SNO 1544,duration of intensive unit stay,26,,flagged,A4,ICU days exceed total stay (16)
+admissions,2017-06-24,SNO 1550,duration of intensive unit stay,2,,flagged,A4,ICU days exceed total stay (1)
+admissions,2017-06-28,SNO 1642,duration of intensive unit stay,3,,flagged,A4,ICU days exceed total stay (2)
+admissions,2017-07-05,SNO 1770,duration of intensive unit stay,3,,flagged,A4,ICU days exceed total stay (1)
+admissions,2017-07-09,SNO 1860,duration of intensive unit stay,8,,flagged,A4,ICU days exceed total stay (7)
+admissions,2017-07-18,SNO 2025,duration of intensive unit stay,7,,flagged,A4,ICU days exceed total stay (4)
+admissions,2017-08-08,SNO 2446,duration of intensive unit stay,3,,flagged,A4,ICU days exceed total stay (2)
+admissions,2017-08-21,SNO 2570,duration of intensive unit stay,9,,flagged,A4,ICU days exceed total stay (8)
+admissions,2017-11-19,SNO 4516,duration of intensive unit stay,12,,flagged,A4,ICU days exceed total stay (11)
+admissions,2017-11-19,SNO 4520,duration of intensive unit stay,18,,flagged,A4,ICU days exceed total stay (17)
+admissions,2017-11-21,SNO 4574,duration of intensive unit stay,2,,flagged,A4,ICU days exceed total stay (1)
+admissions,2017-11-25,SNO 4672,duration of intensive unit stay,8,,flagged,A4,ICU days exceed total stay (7)
+admissions,2017-11-26,SNO 4690,duration of intensive unit stay,6,,flagged,A4,ICU days exceed total stay (5)
+admissions,2017-12-05,SNO 4931,duration of intensive unit stay,6,,flagged,A4,ICU days exceed total stay (5)
+admissions,2017-12-08,SNO 5032,duration of intensive unit stay,7,,flagged,A4,ICU days exceed total stay (4)
+admissions,2018-01-10,SNO 5938,duration of intensive unit stay,2,,flagged,A4,ICU days exceed total stay (1)
+admissions,2018-02-09,SNO 6521,duration of intensive unit stay,10,,flagged,A4,ICU days exceed total stay (9)
+admissions,2018-02-23,SNO 6851,duration of intensive unit stay,16,,flagged,A4,ICU days exceed total stay (14)
+admissions,2018-03-04,SNO 7054,duration of intensive unit stay,10,,flagged,A4,ICU days exceed total stay (9)
+admissions,2018-03-09,SNO 7147,duration of intensive unit stay,6,,flagged,A4,ICU days exceed total stay (1)
+admissions,2018-03-26,SNO 7507,duration of intensive unit stay,9,,flagged,A4,ICU days exceed total stay (4)
+admissions,2018-04-06,SNO 7705,duration of intensive unit stay,7,,flagged,A4,ICU days exceed total stay (6)
+admissions,2018-04-11,SNO 7822,duration of intensive unit stay,8,,flagged,A4,ICU days exceed total stay (7)
+admissions,2018-04-21,SNO 8008,duration of intensive unit stay,6,,flagged,A4,ICU days exceed total stay (5)
+admissions,2018-06-29,SNO 9255,duration of intensive unit stay,24,,flagged,A4,ICU days exceed total stay (23)
+admissions,2018-07-12,SNO 9521,duration of intensive unit stay,11,,flagged,A4,ICU days exceed total stay (10)
+admissions,2018-08-04,SNO 9939,duration of intensive unit stay,4,,flagged,A4,ICU days exceed total stay (2)
+admissions,2018-08-06,SNO 9972,duration of intensive unit stay,3,,flagged,A4,ICU days exceed total stay (2)
+admissions,2018-08-16,SNO 10150,duration of intensive unit stay,6,,flagged,A4,ICU days exceed total stay (3)
+admissions,2018-08-20,SNO 10234,duration of intensive unit stay,4,,flagged,A4,ICU days exceed total stay (3)
+admissions,2018-08-22,SNO 10292,duration of intensive unit stay,7,,flagged,A4,ICU days exceed total stay (6)
+admissions,2018-08-26,SNO 10381,duration of intensive unit stay,2,,flagged,A4,ICU days exceed total stay (1)
+admissions,2018-09-14,SNO 10761,duration of intensive unit stay,6,,flagged,A4,ICU days exceed total stay (5)
+admissions,2018-09-25,SNO 11026,duration of intensive unit stay,6,,flagged,A4,ICU days exceed total stay (5)
+admissions,2018-09-26,SNO 11053,duration of intensive unit stay,12,,flagged,A4,ICU days exceed total stay (10)
+admissions,2018-09-29,SNO 11120,duration of intensive unit stay,16,,flagged,A4,ICU days exceed total stay (15)
+admissions,2018-09-29,SNO 11124,duration of intensive unit stay,11,,flagged,A4,ICU days exceed total stay (6)
+admissions,2018-10-04,SNO 11248,duration of intensive unit stay,4,,flagged,A4,ICU days exceed total stay (2)
+admissions,2018-10-06,SNO 11271,duration of intensive unit stay,7,,flagged,A4,ICU days exceed total stay (6)
+admissions,2018-10-13,SNO 11446,duration of intensive unit stay,16,,flagged,A4,ICU days exceed total stay (8)
+admissions,2018-10-13,SNO 11447,duration of intensive unit stay,16,,flagged,A4,ICU days exceed total stay (8)
+admissions,2018-10-18,SNO 11567,duration of intensive unit stay,12,,flagged,A4,ICU days exceed total stay (11)
+admissions,2018-10-19,SNO 11594,duration of intensive unit stay,4,,flagged,A4,ICU days exceed total stay (2)
+admissions,2018-10-24,SNO 11700,duration of intensive unit stay,2,,flagged,A4,ICU days exceed total stay (1)
+admissions,2018-11-01,SNO 11904,duration of intensive unit stay,7,,flagged,A4,ICU days exceed total stay (6)
+admissions,2018-11-06,SNO 11999,duration of intensive unit stay,12,,flagged,A4,ICU days exceed total stay (7)
+admissions,2018-11-12,SNO 12115,duration of intensive unit stay,8,,flagged,A4,ICU days exceed total stay (7)
+admissions,2018-11-13,SNO 12154,duration of intensive unit stay,4,,flagged,A4,ICU days exceed total stay (2)
+admissions,2018-11-13,SNO 12166,duration of intensive unit stay,3,,flagged,A4,ICU days exceed total stay (2)
+admissions,2018-11-26,SNO 12455,duration of intensive unit stay,4,,flagged,A4,ICU days exceed total stay (3)
+admissions,2018-11-28,SNO 12509,duration of intensive unit stay,5,,flagged,A4,ICU days exceed total stay (4)
+admissions,2018-11-28,SNO 12510,duration of intensive unit stay,5,,flagged,A4,ICU days exceed total stay (4)
+admissions,2018-12-01,SNO 12604,duration of intensive unit stay,24,,flagged,A4,ICU days exceed total stay (21)
+admissions,2018-12-01,SNO 12605,duration of intensive unit stay,24,,flagged,A4,ICU days exceed total stay (21)
+admissions,2018-12-19,SNO 13054,duration of intensive unit stay,16,,flagged,A4,ICU days exceed total stay (15)
+admissions,2018-12-19,SNO 13055,duration of intensive unit stay,16,,flagged,A4,ICU days exceed total stay (15)
+admissions,2018-12-25,SNO 13217,duration of intensive unit stay,5,,flagged,A4,ICU days exceed total stay (4)
+admissions,2019-01-02,SNO 13404,duration of intensive unit stay,16,,flagged,A4,ICU days exceed total stay (13)
+admissions,2019-01-04,SNO 13479,duration of intensive unit stay,6,,flagged,A4,ICU days exceed total stay (4)
+admissions,2019-01-11,SNO 13665,duration of intensive unit stay,3,,flagged,A4,ICU days exceed total stay (2)
+admissions,2019-01-28,SNO 14103,duration of intensive unit stay,3,,flagged,A4,ICU days exceed total stay (1)
+admissions,2019-02-04,SNO 14319,duration of intensive unit stay,9,,flagged,A4,ICU days exceed total stay (5)
+admissions,2019-02-04,SNO 14320,duration of intensive unit stay,9,,flagged,A4,ICU days exceed total stay (5)
+admissions,2019-02-04,SNO 14331,duration of intensive unit stay,4,,flagged,A4,ICU days exceed total stay (1)
+admissions,2019-03-07,SNO 15172,duration of intensive unit stay,14,,flagged,A4,ICU days exceed total stay (13)
+admissions,2019-03-13,SNO 15310,duration of intensive unit stay,4,,flagged,A4,ICU days exceed total stay (3)
+admissions,2019-03-18,SNO 15433,duration of intensive unit stay,4,,flagged,A4,ICU days exceed total stay (2)
+admissions,2019-03-26,SNO 15637,duration of intensive unit stay,9,,flagged,A4,ICU days exceed total stay (4)
+admissions,2017-09-23,SNO 3253,CHEST INFECTION,\,,flagged,A5,binary field holds a non 0/1 value
+admissions,2017-08-09,,admissions (daily),5,,flagged,A6,daily count below 40% of 29-day rolling median (possible under-recording; kept)
+admissions,2017-08-10,,admissions (daily),2,,flagged,A6,daily count below 40% of 29-day rolling median (possible under-recording; kept)
+admissions,2017-08-11,,admissions (daily),3,,flagged,A6,daily count below 40% of 29-day rolling median (possible under-recording; kept)
+admissions,2017-08-12,,admissions (daily),5,,flagged,A6,daily count below 40% of 29-day rolling median (possible under-recording; kept)
+admissions,2017-08-18,,admissions (daily),6,,flagged,A6,daily count below 40% of 29-day rolling median (possible under-recording; kept)
+admissions,2017-08-19,,admissions (daily),6,,flagged,A6,daily count below 40% of 29-day rolling median (possible under-recording; kept)
+admissions,2017-09-03,,admissions (daily),7,,flagged,A6,daily count below 40% of 29-day rolling median (possible under-recording; kept)
+admissions,2017-10-19,,admissions (daily),6,,flagged,A6,daily count below 40% of 29-day rolling median (possible under-recording; kept)
+admissions,2018-02-25,,admissions (daily),8,,flagged,A6,daily count below 40% of 29-day rolling median (possible under-recording; kept)
+admissions,2018-04-29,,admissions (daily),5,,flagged,A6,daily count below 40% of 29-day rolling median (possible under-recording; kept)
+admissions,2018-07-08,,admissions (daily),6,,flagged,A6,daily count below 40% of 29-day rolling median (possible under-recording; kept)
+admissions,2019-01-12,,admissions (daily),7,,flagged,A6,daily count below 40% of 29-day rolling median (possible under-recording; kept)
+admissions,2019-02-03,,admissions (daily),11,,flagged,A6,daily count below 40% of 29-day rolling median (possible under-recording; kept)
+admissions,2019-03-31,,admissions (daily),6,,flagged,A6,daily count below 40% of 29-day rolling median (possible under-recording; kept)
+pollution,2017-05-10,,PM10 MAX,`150,150,corrected,P1,stray punctuation around a plain number removed
+pollution,2018-11-16,,NO2 MAX,6+2,,set_missing,P1,non-numeric value with no unambiguous reading
+pollution,2019-01-23,,OZONE MAX,S,,set_missing,P1,non-numeric value with no unambiguous reading
+pollution,2018-05-11,,HUMIDITY,,,set_missing,P1,blank cell
+pollution,2018-05-12,,HUMIDITY,,,set_missing,P1,blank cell
+pollution,2018-05-13,,HUMIDITY,,,set_missing,P1,blank cell
+pollution,2018-05-14,,HUMIDITY,,,set_missing,P1,blank cell
+pollution,2017-09-21,,NO2 AVG,797,,set_missing,P2,"NO2 AVG > 400, equals the reported AQI and NO2 MAX is 900 (instrument cap)"
+pollution,2017-09-21,,AQI,797,,set_missing,P2,AQI was driven by the invalid NO2 value
+pollution,2017-09-22,,NO2 AVG,769,,set_missing,P2,"NO2 AVG > 400, equals the reported AQI and NO2 MAX is 900 (instrument cap)"
+pollution,2017-09-22,,AQI,769,,set_missing,P2,AQI was driven by the invalid NO2 value
+pollution,2017-09-21,,NO2 MAX,900,,flagged,P2,NO2 MAX at 900 looks like an instrument cap
+pollution,2017-09-22,,NO2 MAX,900,,flagged,P2,NO2 MAX at 900 looks like an instrument cap
+pollution,2017-09-25,,NO2 MAX,900,,flagged,P2,NO2 MAX at 900 looks like an instrument cap
+pollution,2017-11-09,,PM2.5 AVG,30,,set_missing,P3,"AVG far outside the day's reported [MIN, MAX] = [181, 420]"
+pollution,2018-12-17,,PM2.5 AVG,58,,set_missing,P3,"AVG far outside the day's reported [MIN, MAX] = [226, 270]"
+pollution,2017-04-19,,PM10 AVG,90,,flagged,P3,"AVG slightly outside the day's range [56, 80]"
+pollution,2017-10-02,,PM10 AVG,92,,flagged,P3,"AVG slightly outside the day's range [108, 257]"
+pollution,2017-10-04,,PM10 AVG,90,,flagged,P3,"AVG slightly outside the day's range [158, 206]"
+pollution,2017-10-12,,PM10 AVG,355,,flagged,P3,"AVG slightly outside the day's range [171, 283]"
+pollution,2017-10-13,,PM10 AVG,374,,flagged,P3,"AVG slightly outside the day's range [169, 318]"
+pollution,2017-10-14,,PM10 AVG,364,,flagged,P3,"AVG slightly outside the day's range [167, 287]"
+pollution,2019-03-05,,NO2 AVG,3.0,,set_missing,P3,"AVG far outside the day's reported [MIN, MAX] = [21, 9]"
+pollution,2017-03-25,,NO2 AVG,28.0,,flagged,P3,"AVG slightly outside the day's range [40, 180]"
+pollution,2017-07-10,,NO2 AVG,12.0,,flagged,P3,"AVG slightly outside the day's range [5, 10]"
+pollution,2017-10-02,,NO2 AVG,10.0,,flagged,P3,"AVG slightly outside the day's range [19, 20]"
+pollution,2017-10-04,,NO2 AVG,8.0,,flagged,P3,"AVG slightly outside the day's range [13, 26]"
+pollution,2019-03-05,,NO2 MIN/MAX,21/9,,flagged,P3,MIN greater than MAX
+pollution,2019-01-27,,NH3 AVG,5,,set_missing,P3,"AVG far outside the day's reported [MIN, MAX] = [14, 5]"
+pollution,2017-10-14,,NH3 AVG,9,,flagged,P3,"AVG slightly outside the day's range [5, 8]"
+pollution,2019-01-27,,NH3 MIN/MAX,14/5,,flagged,P3,MIN greater than MAX
+pollution,2017-04-11,,SO2 AVG,19,,flagged,P3,"AVG slightly outside the day's range [6, 17]"
+pollution,2018-12-16,,SO2 AVG,5,,flagged,P3,"AVG slightly outside the day's range [6, 12]"
+pollution,2018-06-05,,CO AVG,6,,set_missing,P3,"AVG far outside the day's reported [MIN, MAX] = [19, 87]"
+pollution,2019-03-12,,CO AVG,24,,flagged,P3,"AVG slightly outside the day's range [7, 18]"
+pollution,2017-05-26,,OZONE AVG,53,,set_missing,P3,"AVG far outside the day's reported [MIN, MAX] = [17, 20]"
+pollution,2017-05-18,,OZONE AVG,34,,flagged,P3,"AVG slightly outside the day's range [15, 22]"
+pollution,2017-04-01,,AQI,52.0,,flagged,P4,AQI differs from max pollutant AVG (44)
+pollution,2017-07-29,,AQI,81.0,,flagged,P4,AQI differs from max pollutant AVG (80)
+pollution,2017-08-14,,AQI,50.0,,flagged,P4,AQI differs from max pollutant AVG (46)
+pollution,2017-08-15,,AQI,52.0,,flagged,P4,AQI differs from max pollutant AVG (47)
+pollution,2017-11-09,,AQI,309.0,,flagged,P4,AQI differs from max pollutant AVG (280)
+pollution,2018-06-29,,AQI,60.0,,flagged,P4,AQI differs from max pollutant AVG (67)
+pollution,2018-08-14,,AQI,85.0,,flagged,P4,AQI differs from max pollutant AVG (58)
+pollution,2019-02-15,,AQI,181.0,,flagged,P4,AQI differs from max pollutant AVG (100)
+pollution,2017-04-10,,PM2.5 AVG,32.0,,flagged,P5,robust spike z=-6.8 vs 15-day median (kept; may be a genuine episode)
+pollution,2017-04-11,,PM2.5 AVG,39.0,,flagged,P5,robust spike z=-5.4 vs 15-day median (kept; may be a genuine episode)
+pollution,2017-11-16,,PM2.5 AVG,76.0,,flagged,P5,robust spike z=-7.7 vs 15-day median (kept; may be a genuine episode)
+pollution,2018-06-14,,PM2.5 AVG,419.0,,flagged,P5,robust spike z=5.3 vs 15-day median (kept; may be a genuine episode)
+pollution,2018-09-28,,PM2.5 AVG,132.0,,flagged,P5,robust spike z=5.5 vs 15-day median (kept; may be a genuine episode)
+pollution,2017-04-01,,PM10 AVG,35,,flagged,P5,robust spike z=-8.2 vs 15-day median (kept; may be a genuine episode)
+pollution,2017-04-10,,PM10 AVG,31,,flagged,P5,robust spike z=-10.6 vs 15-day median (kept; may be a genuine episode)
+pollution,2017-04-11,,PM10 AVG,36,,flagged,P5,robust spike z=-9.7 vs 15-day median (kept; may be a genuine episode)
+pollution,2017-04-16,,PM10 AVG,58,,flagged,P5,robust spike z=-6.0 vs 15-day median (kept; may be a genuine episode)
+pollution,2017-04-17,,PM10 AVG,60,,flagged,P5,robust spike z=-5.9 vs 15-day median (kept; may be a genuine episode)
+pollution,2017-06-19,,PM10 AVG,245,,flagged,P5,robust spike z=5.1 vs 15-day median (kept; may be a genuine episode)
+pollution,2018-01-17,,PM10 AVG,45,,flagged,P5,robust spike z=-5.6 vs 15-day median (kept; may be a genuine episode)
+pollution,2018-02-14,,PM10 AVG,31,,flagged,P5,robust spike z=-5.0 vs 15-day median (kept; may be a genuine episode)
+pollution,2018-06-14,,PM10 AVG,486,,flagged,P5,robust spike z=5.1 vs 15-day median (kept; may be a genuine episode)
+pollution,2018-11-16,,PM10 AVG,42,,flagged,P5,robust spike z=-5.2 vs 15-day median (kept; may be a genuine episode)
+pollution,2017-04-11,,AQI,39.0,,flagged,P5,robust spike z=-6.2 vs 15-day median (kept; may be a genuine episode)
+pollution,2017-11-16,,AQI,92.0,,flagged,P5,robust spike z=-5.5 vs 15-day median (kept; may be a genuine episode)
+pollution,2017-09-21,,aqi,,175.67,imputed,P6,linear interpolation (gap <= 3 days)
+pollution,2017-09-22,,aqi,,139.33,imputed,P6,linear interpolation (gap <= 3 days)
+pollution,2017-11-09,,pm25,,317.5,imputed,P6,linear interpolation (gap <= 3 days)
+pollution,2018-12-17,,pm25,,48.0,imputed,P6,linear interpolation (gap <= 3 days)
+pollution,2017-09-21,,no2,,57.67,imputed,P6,linear interpolation (gap <= 3 days)
+pollution,2017-09-22,,no2,,80.33,imputed,P6,linear interpolation (gap <= 3 days)
+pollution,2019-03-05,,no2,,3.0,imputed,P6,linear interpolation (gap <= 3 days)
+pollution,2019-01-27,,nh3,,4.5,imputed,P6,linear interpolation (gap <= 3 days)
+pollution,2018-06-05,,co,,31.0,imputed,P6,linear interpolation (gap <= 3 days)
+pollution,2017-05-26,,ozone,,44.0,imputed,P6,linear interpolation (gap <= 3 days)

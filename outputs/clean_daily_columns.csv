@@ -1,0 +1,47 @@
+column,source,role,description
+date,calendar,key,"calendar day, 2017-04-01 .. 2019-03-31"
+weekday,calendar,predictor_candidate,0=Mon .. 6=Sun
+admissions,admissions,TARGET,raw admission rows with this D.O.A (duplicates NOT removed)
+admissions_emergency,admissions,analysis_only,raw rows with type E (not a predictor)
+admissions_opd,admissions,analysis_only,raw rows with type O (not a predictor)
+extra_exact_copies,admissions,data_quality,rows that exactly repeat an earlier row (excl. SNO)
+extra_near_copies,admissions,data_quality,MRD+D.O.A repeats that are not exact copies
+admissions_dedup_exact,admissions,sensitivity_only,admissions minus exact copies
+admissions_dedup_mrd_doa,admissions,sensitivity_only,one row per MRD+D.O.A
+low_count_flag,admissions,data_quality,count < 40% of 29-day rolling median
+zero_count_day,admissions,data_quality,no admission rows (kept as genuine 0)
+brought_dead,mortality,analysis_only,patients brought dead (separate population)
+temp_max_c,weather,predictor_candidate,Open-Meteo daily max temperature
+temp_min_c,weather,predictor_candidate,Open-Meteo daily min temperature
+temp_mean_c,weather,predictor_candidate,Open-Meteo daily mean temperature
+precip_mm,weather,predictor_candidate,Open-Meteo precipitation
+rel_humidity_mean_pct,weather,predictor_candidate,Open-Meteo mean relative humidity
+wind_max_kmh,weather,predictor_candidate,Open-Meteo max wind
+wind_mean_kmh,weather,predictor_candidate,Open-Meteo mean wind
+aqi,pollution,predictor_candidate,"reported AQI (cleaned, short gaps interpolated)"
+pm25,pollution,predictor_candidate,PM2.5 AVG (cleaned; units uncertain - see report)
+pm10,pollution,predictor_candidate,PM10 AVG (cleaned)
+no2,pollution,predictor_candidate,NO2 AVG (cleaned)
+nh3,pollution,predictor_candidate,NH3 AVG (cleaned)
+so2,pollution,predictor_candidate,SO2 AVG (cleaned)
+co,pollution,predictor_candidate,CO AVG (cleaned)
+ozone,pollution,predictor_candidate,OZONE AVG (cleaned)
+aqi_imputed,pollution,data_quality,aqi filled by interpolation
+pm25_imputed,pollution,data_quality,pm25 filled by interpolation
+pm10_imputed,pollution,data_quality,pm10 filled by interpolation
+no2_imputed,pollution,data_quality,no2 filled by interpolation
+nh3_imputed,pollution,data_quality,nh3 filled by interpolation
+so2_imputed,pollution,data_quality,so2 filled by interpolation
+co_imputed,pollution,data_quality,co filled by interpolation
+ozone_imputed,pollution,data_quality,ozone filled by interpolation
+prominent_pollutant,pollution,analysis_only,station's prominent pollutant label
+station_tmax_c,pollution,cross_check_only,pollution-station max temperature
+station_tmin_c,pollution,cross_check_only,pollution-station min temperature
+station_humidity_pct,pollution,cross_check_only,pollution-station humidity (not imputed)
+holiday_count,festival,predictor_candidate,number of calendar entries on the day
+holiday_any,festival,predictor_candidate,any holiday/festival
+holiday_national,festival,predictor_candidate,national holiday
+holiday_state,festival,predictor_candidate,Punjab state holiday
+holiday_festival,festival,predictor_candidate,calendar type 'festival'
+holiday_major_festival,festival,predictor_candidate,one of MAJOR_FESTIVALS
+holiday_names,festival,label,names joined with '; '
